@@ -1,7 +1,7 @@
 import java.util.*;
 import java.util.concurrent.*;
 
-class UsernameChecker {
+class UsernameChecker{
 
     private ConcurrentHashMap<String, Integer> usernameMap = new ConcurrentHashMap<>();
     private ConcurrentHashMap<String, Integer> attemptFrequency = new ConcurrentHashMap<>();

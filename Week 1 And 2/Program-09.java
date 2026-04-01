@@ -6,7 +6,7 @@ class Transaction {
     long time;
 }
 
-class FraudDetector {
+class FraudDetector{
 
     public List<int[]> twoSum(List<Transaction> txs, int target) {
         Map<Integer, Transaction> map = new HashMap<>();

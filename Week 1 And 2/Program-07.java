@@ -1,6 +1,6 @@
 import java.util.*;
 
-class AutocompleteSystem {
+class AutocompleteSystem{
 
     static class TrieNode {
         Map<Character, TrieNode> children = new HashMap<>();

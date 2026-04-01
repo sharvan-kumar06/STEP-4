@@ -1,6 +1,6 @@
 import java.util.*;
 
-class DNSCache {
+class DNSCache{
 
     class DNSEntry {
         String ip;

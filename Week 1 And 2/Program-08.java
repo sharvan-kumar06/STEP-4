@@ -1,6 +1,6 @@
 import java.util.*;
 
-class ParkingLot {
+class ParkingLot{
 
     enum Status { EMPTY, OCCUPIED, DELETED }
 

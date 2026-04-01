@@ -1,7 +1,7 @@
 import java.util.*;
 import java.util.concurrent.*;
 
-class AnalyticsDashboard {
+class AnalyticsDashboard{
 
     private ConcurrentHashMap<String, Integer> pageViews = new ConcurrentHashMap<>();
     private ConcurrentHashMap<String, Set<String>> uniqueVisitors = new ConcurrentHashMap<>();

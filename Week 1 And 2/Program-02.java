@@ -1,7 +1,7 @@
 import java.util.*;
 import java.util.concurrent.*;
 
-class FlashSaleInventory {
+class FlashSaleInventory{
 
     private ConcurrentHashMap<String, Integer> stockMap = new ConcurrentHashMap<>();
     private ConcurrentHashMap<String, Queue<Integer>> waitingList = new ConcurrentHashMap<>();

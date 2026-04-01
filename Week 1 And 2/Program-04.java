@@ -1,6 +1,6 @@
 import java.util.*;
 
-class PlagiarismDetector {
+class PlagiarismDetector{
 
     private HashMap<String, Set<String>> ngramIndex = new HashMap<>();
     private final int N = 5;
